@@ -3,6 +3,7 @@
 }
 h1 {
   font-size: 54px;
+  margin-bottom: 20px;
 }
 h2 {
   margin-bottom: 30px;
@@ -45,4 +46,11 @@ h2 {
 .app-name {
   font-size: 24px;
   font-weight: 500;
+}
+.app-descriptipn {
+}
+@media (max-width: 1199.98px) {
+  h1 {
+    font-size: 36px;
+  }
 }
