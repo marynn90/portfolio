@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: rgb(237, 239, 240);
+  --nav-bg-color: rgb(65, 65, 100);
 }
 h1 {
   font-size: 54px;
@@ -9,7 +10,7 @@ h2 {
   margin-bottom: 30px;
 }
 nav {
-  background-color: rgb(65, 65, 100);
+  background-color: var(--nav-bg-color);
   max-height: 60px;
 }
 ul li {
@@ -17,6 +18,13 @@ ul li {
   display: inline;
   margin-right: 70px;
   color: white;
+}
+footer {
+  background-color: var(--nav-bg-color);
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
 }
 .active {
   color: rgb(188, 184, 184);
@@ -83,6 +91,13 @@ ul li {
   font-family: "Playfair Display", serif;
   line-height: 60px;
 }
+.icons-section {
+  font-size: 32px;
+}
+.icon:hover {
+  color: rgb(148, 147, 147);
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
 @media (max-width: 1199.98px) {
   h1 {
     font-size: 36px;
