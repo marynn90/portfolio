@@ -43,6 +43,10 @@ footer {
   border: 1px solid #4a4a48;
   max-width: 40%;
 }
+.contact-sec {
+  background-color: #c19898;
+  opacity: 0.9;
+}
 .container {
   margin-top: 20px;
   text-align: center;
@@ -95,7 +99,8 @@ footer {
   font-family: "Playfair Display", serif;
   line-height: 60px;
 }
-.icons-links {
+.icons-links,
+.icon {
   font-size: 32px;
   color: white;
 }
